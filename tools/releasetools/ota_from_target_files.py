@@ -822,7 +822,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   if HasVendorPartition(input_zip):
     system_progress -= 0.1
 
-  model = target_info.GetBuildProp("ro.product.model")
+  model = "Yureka"
   build = target_info.GetBuildProp("ro.build.date")
 
   script.Print("- Nitrogen Project ---------------------------");
